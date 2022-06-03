@@ -1,15 +1,48 @@
 body{
-    background-color: lightcoral;
-}
-#title, .subtitle , .posttitle {
-    color: black;
-    size: 14 px;
+    max-width: 100 px;
+    background-color: darkgray;
 }
 
+#nome{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+ 
 .post{
     background: white;
     padding: 12px;
     border: 3px;
     border-color: black;
-    margin: 20px;
+    margin: 1px;
+}
+
+.artigo {
+    border: 6px;
+    border-color:black;
+    border-style: solid;
+    margin-left: 5px;
+    padding: 10px;
+    padding-left: 20px;
+    font-size: 24px;
+    margin-left: 12px;
+    padding-left: 12px;
+    vertical-align: top;
+    text-align: justify;
+    
+}
+
+.image  {
+
+    border-radius: 15%;
+    border: 12px; 
+    text-align: left;
+    
+}
+
+#imgpt {
+    size: 45px 80px;
+    float: left;
+    margin-right: 5px;
+    padding-right: 20px;
 }
